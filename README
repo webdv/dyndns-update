@@ -1,0 +1,16 @@
+To use you must:
+
+1. Populate all three fields in example.yaml
+2. Rename example.yaml to config.yaml
+
+
+
+Issues:
+
+If your password is incorrect, you won't know it.  For some reason the password mechanisms (or maybe its dyndns?) doesn't throw an exception if the authentication failed based on the password, however it does when using a bad username?  Or maybe I'm not using passman corectly.
+
+All of the authentication code was from:
+http://www.voidspace.org.uk/python/articles/authentication.shtml
+
+
+Patrick
